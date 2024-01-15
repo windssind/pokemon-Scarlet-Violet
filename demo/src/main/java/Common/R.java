@@ -47,6 +47,12 @@ public class R {
         return r;
     }
 
+    public static R ok() {
+        R r = new R();
+        r.setCode(200);
+        return r;
+    }
+
     public int getCode() {
         return code;
     }

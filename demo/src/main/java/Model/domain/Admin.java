@@ -14,4 +14,6 @@ public class Admin {
     private String name;
 
     private String password;
+
+    // 下面用于存储头像信息
 }

@@ -2,7 +2,7 @@ package Model.request;
 
 // 前端发送过来的信息
 public class AdminRequest {
-    private Integer id;
+    private Integer id; // 为什么还要发送id过来呢，
 
     private String username;
 
